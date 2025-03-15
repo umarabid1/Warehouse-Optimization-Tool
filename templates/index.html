@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warehouse Optimization Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script> <!-- ✅ Latest version -->
+</head>
+<body>
+    <h1>Warehouse Optimization Tool</h1>
+
+    <div class="upload-section">
+        <h2>Input Warehouse Data</h2>
+        <form id="upload-form" enctype="multipart/form-data">
+            <label>Upload Layout Data (CSV):</label>
+            <input type="file" name="layout"><br><br>
+
+            <label>Upload Orders Data (CSV):</label>
+            <input type="file" name="orders"><br><br>
+
+            <label>Upload Products Data (CSV):</label>
+            <input type="file" name="products"><br><br>
+
+            <button type="submit">Upload Data</button>
+        </form>
+    </div>
+
+    <div class="visualization">
+        <div class="chart-container">
+            <h3>Original Layout</h3>
+            <div id="original-layout-container"></div>  <!-- ✅ Interactive Plot Will Load Here -->
+        </div>
+        <div class="chart-container">
+            <h3>Optimized Layout</h3>
+            <div id="optimized-layout-container"></div>  <!-- ✅ Interactive Plot Will Load Here -->
+        </div>
+    </div>
+
+    <div class="download-section">
+        <h2>Download Optimized Data</h2>
+        <a href="{{ url_for('get_optimized_layout') }}" download>Download Optimized Data as CSV</a>
+    </div>
+
+    <div class="warehouse-3d">
+        <h2>3D Warehouse Layout</h2>
+        <canvas id="renderCanvas"></canvas>
+    </div>
+
+<!-- ✅ Load Babylon.js first -->
+<script src="https://cdn.babylonjs.com/babylon.js"></script>
+<script src="https://cdn.babylonjs.com/gui/babylon.gui.min.js"></script>
+
+<!-- ✅ Load your script.js AFTER Babylon.js -->
+<script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</body>
+</html>

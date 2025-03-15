@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+.upload-section, .controls, .warehouse-3d {
+    margin-bottom: 20px;
+}
+
+/* ✅ Properly space the layouts */
+.visualization {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* ✅ Fix layout proportions */
+.chart-container {
+    width: 48%;
+    height: 350px;
+    background-color: #333;
+    border: 1px solid #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* ✅ Fix Download button position */
+.download-section {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.download-section a {
+    color: cyan;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* ✅ Fix 3D Warehouse alignment */
+.warehouse-3d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.warehouse-3d canvas {
+    width: 90%;
+    height: 400px;
+    background: #111;
+}
