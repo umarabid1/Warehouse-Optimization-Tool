@@ -1,4 +1,4 @@
-# 🏭 Warehouse Optimization Tool
+#  Warehouse Optimization Tool
 
 ## 📌 Project Overview
 The **Warehouse Optimization Tool** is a web-based application designed to **visualize and optimize warehouse layouts** based on product demand and order frequency. The tool helps warehouse managers efficiently place high-demand products in optimal locations to improve order fulfillment speed and inventory management.
@@ -7,7 +7,7 @@ This project utilizes **data-driven optimization techniques** and **3D visualiza
 
 ---
 
-## 🔥 Features
+##  Features
 ✅ Upload warehouse, orders, and product data in CSV format  
 ✅ Interactive **2D and 3D** warehouse layout visualization  
 ✅ **Optimized Layout Generation** based on demand  
