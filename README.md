@@ -11,7 +11,6 @@ This project utilizes **data-driven optimization techniques** and **3D visualiza
 ✅ Upload warehouse, orders, and product data in CSV format  
 ✅ Interactive **2D and 3D** warehouse layout visualization  
 ✅ **Optimized Layout Generation** based on demand  
-✅ **Hover functionality** to display product details  
 ✅ Downloadable **optimized layout CSV**  
 ✅ **D3.js and Babylon.js** integration for enhanced visualization  
 
