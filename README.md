@@ -1,6 +1,6 @@
 #  Warehouse Optimization Tool
 
-## 📌 Project Overview
+##  Project Overview
 The **Warehouse Optimization Tool** is a web-based application designed to **visualize and optimize warehouse layouts** based on product demand and order frequency. The tool helps warehouse managers efficiently place high-demand products in optimal locations to improve order fulfillment speed and inventory management.
 
 This project utilizes **data-driven optimization techniques** and **3D visualization** to provide a clear and interactive representation of warehouse layouts.
@@ -8,15 +8,15 @@ This project utilizes **data-driven optimization techniques** and **3D visualiza
 ---
 
 ##  Features
-✅ Upload warehouse, orders, and product data in CSV format  
-✅ Interactive **2D and 3D** warehouse layout visualization  
-✅ **Optimized Layout Generation** based on demand  
-✅ Downloadable **optimized layout CSV**  
-✅ **D3.js and Babylon.js** integration for enhanced visualization  
+Upload warehouse, orders, and product data in CSV format  
+ Interactive **2D and 3D** warehouse layout visualization  
+**Optimized Layout Generation** based on demand  
+ Downloadable **optimized layout CSV**  
+ **D3.js and Babylon.js** integration for enhanced visualization  
 
 ---
 
-## 🖼️ Project Showcase
+##  Project Showcase
 ### **Final Warehouse Layout Visualization**
 ![Warehouse Optimization Tool](WarehouseLayoutV1.jpg)
 
@@ -24,7 +24,7 @@ This project utilizes **data-driven optimization techniques** and **3D visualiza
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Python (Flask)  
 - **Libraries:** D3.js, Babylon.js, Pandas, Matplotlib  
